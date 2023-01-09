@@ -1,8 +1,0 @@
-<!ELEMENT Menus (menu*)>
-<!ELEMENT menu (componente*)>
-<!ELEMENT componente (#PCDATA)>
-<!ELEMENT Calorias (#PCDATA)>
-<!ELEMENT Peso_neto (#PCDATA)>
-<!ATTLIST menu nombre CDATA #REQUIRED>
-<!ATTLIST menu precio CDATA #REQUIRED>
-<!ATTLIST componente nombre CDATA #REQUIRED>
