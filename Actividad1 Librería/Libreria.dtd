@@ -1,0 +1,10 @@
+<!ELEMENT Libreria (Autores)>
+<!ELEMENT Autores (Autor+)>
+<!ELEMENT Autor (Apellido1,Apellido2,Nombre,Titulo,FechaDePublicacion,Editorial,ISBN)>
+<!ELEMENT Apellido1 (#PCDATA)>
+<!ELEMENT Apellido2 (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT FechaDePublicacion (#PCDATA)>
+<!ELEMENT Editorial (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>

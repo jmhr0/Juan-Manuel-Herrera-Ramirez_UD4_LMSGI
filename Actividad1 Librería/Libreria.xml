@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<!-- <!DOCTYPE Libreria SYSTEM "Libreria.dtd"> -->
+<Libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Libreria.xsd">
+    <Autores>
+        <Autor>
+            <Apellido1>Sanderson</Apellido1>
+            <Apellido2></Apellido2>
+            <Nombre>Brandon</Nombre>
+            <Titulo>El metal perdido</Titulo>
+        <FechaDePublicacion>17/11/2022</FechaDePublicacion>
+        <Editorial>Nova</Editorial>
+        <ISBN>9788418037733</ISBN>
+        </Autor>
+        <Autor>
+            <Apellido1>Kellen</Apellido1>
+            <Apellido2></Apellido2>
+            <Nombre>Alice</Nombre>
+            <Titulo>La teoria de los archipielagos</Titulo>
+        <FechaDePublicacion>16/11/2022</FechaDePublicacion>
+        <Editorial>Planeta</Editorial>
+        <ISBN>9788408264385</ISBN>
+        </Autor>
+        <Autor>
+            <Apellido1>Rodríguez</Apellido1>
+            <Apellido2>Benítez</Apellido2>
+            <Nombre>Aitana</Nombre>
+            <Titulo>El muro que separa las realidades</Titulo>
+        <FechaDePublicacion>24/12/2012</FechaDePublicacion>
+        <Editorial>El Nuevo Mundo</Editorial>
+        <ISBN>7462946678101</ISBN>
+        </Autor>
+        <Autor>
+            <Apellido1>Romero</Apellido1>
+            <Apellido2>López</Apellido2>
+            <Nombre>Benito</Nombre>
+            <Titulo>Amigos en el Infierno</Titulo>
+        <FechaDePublicacion>24/1/2003</FechaDePublicacion>
+        <Editorial>Yumanji</Editorial>
+        <ISBN>1574685589425</ISBN>
+        </Autor>
+        <Autor>
+            <Apellido1>Peñalosa</Apellido1>
+            <Apellido2></Apellido2>
+            <Nombre>Gema</Nombre>
+            <Titulo>Fuego</Titulo>
+        <FechaDePublicacion>14/11/2022</FechaDePublicacion>
+        <Editorial>Libros del K.O</Editorial>
+        <ISBN>9788419119049</ISBN>
+        </Autor>
+        <Autor>
+            <Apellido1>Kathleen</Apellido1>
+            <Apellido2>Rowling</Apellido2>
+            <Nombre>Joanne</Nombre>
+            <Titulo>Harry potter y las reliquias de la muerte</Titulo>
+        <FechaDePublicacion>24/11/2022</FechaDePublicacion>
+        <Editorial>Salamandra</Editorial>
+        <ISBN>9788418797057</ISBN>
+        </Autor>
+        <Autor>
+            <Apellido1>Navarro</Apellido1>
+            <Apellido2>Carrasco</Apellido2>
+            <Nombre>Juan</Nombre>
+            <Titulo>No te molestes por mi presencia</Titulo>
+        <FechaDePublicacion>19/8/1998</FechaDePublicacion>
+        <Editorial>ECC l1:Editorial</Editorial>
+        <ISBN>1542857986532</ISBN>
+        </Autor>
+        <Autor>
+            <Apellido1>Ruiz</Apellido1>
+            <Apellido2>Vega</Apellido2>
+            <Nombre>Rafael</Nombre>
+            <Titulo>El río tintado de rojo</Titulo>
+        <FechaDePublicacion>28/4/2009</FechaDePublicacion>
+        <Editorial>Planeta Cósmico</Editorial>
+        <ISBN>1683455826497</ISBN>
+        </Autor>
+        <Autor>
+            <Apellido1>J.</Apellido1>
+            <Apellido2>MAAS</Apellido2>
+            <Nombre>Sarah</Nombre>
+            <Titulo>Imperio de tormentas (Trono de cristal 5)</Titulo>
+        <FechaDePublicacion>31/10/2022</FechaDePublicacion>
+        <Editorial>HIDRA</Editorial>
+        <ISBN>9788418359323</ISBN>
+        </Autor>
+        <Autor>
+            <Apellido1>Maria</Apellido1>
+            <Apellido2>Zavala</Apellido2>
+            <Nombre>Jose</Nombre>
+            <Titulo>El relojo del apocalipsis</Titulo>
+        <FechaDePublicacion>02/11/2022</FechaDePublicacion>
+        <Editorial>HARPERCOLLINS</Editorial>
+        <ISBN>9788491398448</ISBN>
+        </Autor>
+    </Autores>
+</Libreria>
