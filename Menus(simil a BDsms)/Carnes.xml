@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Menus SYSTEM "Carnes.dtd">
+<!-- <BDsms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BDsmsSchema.xsd"> (solo es posible usar una de las dos rutas, así que se prefiere usar el dtd -->
 <Menus>
     <menu nombre="Carrillada" precio="13">
         <componente>Salsa al jugo</componente>
