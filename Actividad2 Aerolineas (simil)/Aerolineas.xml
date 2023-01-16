@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Aerolineas SYSTEM "Aerolineas.dtd">
+<!-- <Aerolineas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aerolineas.xsd"> (solo es posible usar una de las dos rutas, así que se prefiere usar el dtd -->
+<Aerolineas>
+    <Avion>
+        <Marca>Boeing 747 400 ERF</Marca>
+        <Peso>60T</Peso>
+        <Tipo>Comercial</Tipo>
+        <Plazas>6</Plazas>
+        <CodAvion>001</CodAvion>
+    </Avion>
+    <Avion>
+        <Marca>Airbus A320</Marca>
+        <Peso>30T</Peso>
+        <Tipo>Mixto</Tipo>
+        <Plazas>142</Plazas>
+        <CodAvion>002</CodAvion>
+    </Avion>
+    <Avion>
+        <Marca>Airbus A380</Marca>
+        <Peso>50T</Peso>
+        <Tipo>Transporte</Tipo>
+        <Plazas>853</Plazas>
+        <CodAvion>003</CodAvion>
+    </Avion>
+</Aerolineas>

@@ -1,0 +1,7 @@
+<!ELEMENT Aerolineas (Avion*)>
+<!ELEMENT Avion (Marca,Peso,Tipo,Plazas,CodAvion)>
+<!ELEMENT Marca (#PCDATA)>
+<!ELEMENT Peso (#PCDATA)>
+<!ELEMENT Tipo (#PCDATA)>
+<!ELEMENT Plazas (#PCDATA)>
+<!ELEMENT CodAvion (#PCDATA)>
