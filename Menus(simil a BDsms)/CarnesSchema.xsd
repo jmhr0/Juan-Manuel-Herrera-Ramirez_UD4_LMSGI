@@ -4,7 +4,7 @@
     <xs:element name="Carnes">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="menu" maxOccurs="unbounded">
+                <xs:element name="Menus" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="Componente" type="xs:string"/>

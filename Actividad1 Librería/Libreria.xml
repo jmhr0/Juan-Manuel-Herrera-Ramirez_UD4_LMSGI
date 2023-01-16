@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding = "UTF-8"?>
-<!-- <!DOCTYPE Libreria SYSTEM "Libreria.dtd"> -->
-<Libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Libreria.xsd">
+<!DOCTYPE Libreria SYSTEM "Libreria.dtd">
+<!-- <Libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Libreria.xsd"> -->
+<Libreria>
     <Autores>
         <Autor>
             <Apellido1>Sanderson</Apellido1>
