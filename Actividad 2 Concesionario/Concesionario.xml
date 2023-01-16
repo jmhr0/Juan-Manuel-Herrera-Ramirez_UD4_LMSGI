@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Concesionario SYSTEM "Concesionario.dtd">
+<Concesionario>
+    <Coche>
+        <Marca>Toyota</Marca>
+        <Modelo>Yaris</Modelo>
+        <Matrícula>7124 UAQ</Matrícula>
+        <Potencia>143</Potencia>
+        <Plazas>5</Plazas>
+        <NumPuertas>4</NumPuertas>
+        <CodCoche>001</CodCoche>
+    </Coche>
+    <Coche>
+        <Marca>Toyota</Marca>
+        <Modelo>Corolla</Modelo>
+        <Matrícula>7312 JQD</Matrícula>
+        <Potencia>149</Potencia>
+        <Plazas>5</Plazas>
+        <NumPuertas>4</NumPuertas>
+        <CodCoche>002</CodCoche>
+    </Coche>
+    <Coche>
+        <Marca>Toyota</Marca>
+        <Modelo>Camry</Modelo>
+        <Matrícula>9142 KKQ</Matrícula>
+        <Potencia>175</Potencia>
+        <Plazas>5</Plazas>
+        <NumPuertas>4</NumPuertas>
+        <CodCoche>003</CodCoche>
+    </Coche>
+    <Coche>
+        <Marca>Toyota</Marca>
+        <Modelo>Mirai</Modelo>
+        <Matrícula>7152 POL</Matrícula>
+        <Potencia>167</Potencia>
+        <Plazas>5</Plazas>
+        <NumPuertas>4</NumPuertas>
+        <CodCoche>004</CodCoche>
+    </Coche>
+    <Coche>
+        <Marca>BMW</Marca>
+        <Modelo>X5</Modelo>
+        <Matrícula>7412 HEG</Matrícula>
+        <Potencia>475</Potencia>
+        <Plazas>4</Plazas>
+        <NumPuertas>2</NumPuertas>
+        <CodCoche>005</CodCoche>
+    </Coche>
+    <Coche>
+        <Marca>BMW</Marca>
+        <Modelo>X3</Modelo>
+        <Matrícula>6126 JDB</Matrícula>
+        <Potencia>342</Potencia>
+        <Plazas>4</Plazas>
+        <NumPuertas>2</NumPuertas>
+        <CodCoche>006</CodCoche>
+    </Coche>
+    <Coche>
+        <Marca>BMW</Marca>
+        <Modelo>X1</Modelo>
+        <Matrícula>1983 AYB</Matrícula>
+        <Potencia>250</Potencia>
+        <Plazas>4</Plazas>
+        <NumPuertas>2</NumPuertas>
+        <CodCoche>007</CodCoche>
+    </Coche>
+    <Coche>
+        <Marca>KIA</Marca>
+        <Modelo>Sportage</Modelo>
+        <Matrícula>3182 HYC</Matrícula>
+        <Potencia>97</Potencia>
+        <Plazas>5</Plazas>
+        <NumPuertas>4</NumPuertas>
+        <CodCoche>008</CodCoche>
+    </Coche>
+    <Coche>
+        <Marca>KIA</Marca>
+        <Modelo>Sorento</Modelo>
+        <Matrícula>3182 HYC</Matrícula>
+        <Potencia>70</Potencia>
+        <Plazas>5</Plazas>
+        <NumPuertas>4</NumPuertas>
+        <CodCoche>009</CodCoche>
+    </Coche>
+    <Coche>
+        <Marca>KIA</Marca>
+        <Modelo>Picanto</Modelo>
+        <Matrícula>3642 YGQ</Matrícula>
+        <Potencia>80</Potencia>
+        <Plazas>5</Plazas>
+        <NumPuertas>4</NumPuertas>
+        <CodCoche>010</CodCoche>
+    </Coche>
+</Concesionario>

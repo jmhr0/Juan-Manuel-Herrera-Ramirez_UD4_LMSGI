@@ -7,17 +7,15 @@
         <componente>patatas</componente>
         <componente>Carne</componente>
         <componente>refresco</componente>
-        <Peso_neto>4</Peso_neto>
         <Calorias>850</Calorias>
+        <Peso_neto>4</Peso_neto>
     </menu>
     <menu nombre="Solomillo al roquefort" precio="8">
         <componente>Lechuga</componente>
         <componente>Cebolla</componente>
         <componente>Salsa de roquefort</componente>
         <componente>Queso</componente>
-        <componente>Carne</componente>
-        <componente>Refresco</componente>
-        <Peso_neto>1</Peso_neto>
         <Calorias>950</Calorias>
+        <Peso_neto>1</Peso_neto>
     </menu>
     </Menus>

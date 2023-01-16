@@ -1,5 +1,5 @@
 <!ELEMENT Menus (menu*)>
-<!ELEMENT menu (componente,Calorias,Peso_neto*)>
+<!ELEMENT menu (componente,componente,componente,componente,Calorias,Peso_neto*)>
 <!ELEMENT componente (#PCDATA)>
 <!ELEMENT Calorias (#PCDATA)>
 <!ELEMENT Peso_neto (#PCDATA)>
