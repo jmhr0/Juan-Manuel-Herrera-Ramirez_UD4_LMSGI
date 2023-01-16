@@ -1,4 +1,4 @@
-<!ELEMENT Clientes (Cliente?)>
+<!ELEMENT Clientes (Cliente*)>
 <!ELEMENT Cliente (Apellido1,Apellido2,Nombre,Suscripcion,FechainiDeSub,FechafinDeSub,Sexo)>
 <!ELEMENT Apellido1 (#PCDATA)>
 <!ELEMENT Apellido2 (#PCDATA)>
