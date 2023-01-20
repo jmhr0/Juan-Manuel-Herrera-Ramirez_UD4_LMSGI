@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Practicas CFGS.dtd" type="application/xml-dtd"?>
+<!-- <DAM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Practicas CFGS.xsd"> -->
+<DAM>
+    <Alumnos>
+        <Alumno>
+            <NIF>31293284Y</NIF>
+            <Resultado>Apto</Resultado>
+            <Observaciones>Buenas notas</Observaciones>
+            <IP>192.165.0.123</IP>
+        </Alumno>
+        <Alumno>
+            <NIF>83182867X</NIF>
+            <Resultado>Apto</Resultado>
+            <Observaciones>Buenas notas</Observaciones>
+            <MAC>193.239.382</MAC>
+        </Alumno>
+        <Alumno>
+            <NIF>581923643L</NIF>
+            <Resultado>No Apto</Resultado>
+            <Observaciones>Buenas notas</Observaciones>
+            <IP>192.165.0.128</IP>
+        </Alumno>
+        <Alumno>
+            <NIF>84172385P</NIF>
+            <Resultado>No Apto</Resultado>
+            <Observaciones>Buenas notas</Observaciones>
+            <MAC>193.239.382</MAC>
+        </Alumno>
+    </Alumnos>
+</DAM>

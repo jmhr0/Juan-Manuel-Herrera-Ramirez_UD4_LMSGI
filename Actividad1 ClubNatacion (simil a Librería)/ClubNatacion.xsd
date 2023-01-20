@@ -1,19 +1,22 @@
 <?xml version="1.0" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     version="0.1" xml:lang="es">
-    <xs:element name="Libreria">
+    <xs:element name="ClubNatacion">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Autores" maxOccurs="unbounded">
+                <xs:element name="Clientes" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="Autor" maxOccurs="unbounded">
+                            <xs:element name="Cliente" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="telefono" type="xs:string"/>
-                                        <xs:element name="fecha" type="xs:string"/>
-                                        <xs:element name="hora" type="xs:string"/>
-                                        <xs:element name="mensaje" type="xs:string"/>
+                                        <xs:element name="Apellido1" type="xs:string"/>
+                                        <xs:element name="Apellido2" type="xs:string"/>
+                                        <xs:element name="Nombre" type="xs:string"/>
+                                        <xs:element name="Suscripcion" type="xs:string"/>
+                                        <xs:element name="FechainiDeSub" type="xs:date"/>
+                                        <xs:element name="FechafinDeSub" type="xs:date"/>
+                                        <xs:element name="Sexo" type="xs:string"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>

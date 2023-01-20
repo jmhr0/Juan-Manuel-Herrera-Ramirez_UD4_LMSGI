@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Aerolineas SYSTEM "Aerolineas.dtd">
-<!-- <Aerolineas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aerolineas.xsd"> (solo es posible usar una de las dos rutas, así que se prefiere usar el dtd -->
-<Aerolineas>
+<!-- <!DOCTYPE Aerolineas SYSTEM "Aerolineas.dtd"> -->
+<Aerolineas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aerolineas.xsd">
+
     <Avion>
         <Marca>Boeing 747 400 ERF</Marca>
         <Peso>60T</Peso>

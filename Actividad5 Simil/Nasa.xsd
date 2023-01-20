@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Nasa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Astronautas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Astronauta" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="NIF" type="xs:string"/>
+                                        <xs:element name="Despegue">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Valido"/>
+                                                    <xs:enumeration value="No Valido"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="Observaciones" type="xs:string" minOccurs="0"/>
+                                        <xs:choice>
+                                            <xs:sequence>
+                                                <xs:element name="CodCohete" type="xs:string"/>
+                                                <xs:element name="CodEquipo" type="xs:string"/>
+                                            </xs:sequence>
+                                        </xs:choice>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        
+    </xs:element>
+</xs:schema>

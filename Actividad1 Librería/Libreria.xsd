@@ -10,10 +10,13 @@
                             <xs:element name="Autor" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="telefono" type="xs:string"/>
-                                        <xs:element name="fecha" type="xs:string"/>
-                                        <xs:element name="hora" type="xs:string"/>
-                                        <xs:element name="mensaje" type="xs:string"/>
+                                        <xs:element name="Apellido1" type="xs:string"/>
+                                        <xs:element name="Apellido2" type="xs:string"/>
+                                        <xs:element name="Nombre" type="xs:string"/>
+                                        <xs:element name="Titulo" type="xs:string"/>
+                                        <xs:element name="FechaDePublicacion" type="xs:string"/>
+                                        <xs:element name="Editorial" type="xs:string"/>
+                                        <xs:element name="ISBN" type="xs:string"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>

@@ -1,0 +1,8 @@
+<!ELEMENT Nasa (Astronautas*)>
+<!ELEMENT Astronautas (Astronauta*)>
+<!ELEMENT Astronauta (NIF,Despegue,Observaciones,CodCohete,CodEquipo)>
+<!ELEMENT NIF (#PCDATA)>
+<!ELEMENT Despegue (#PCDATA)>
+<!ELEMENT Observaciones (#PCDATA)>
+<!ELEMENT CodCohete (#PCDATA)>
+<!ELEMENT CodEquipo (#PCDATA)>

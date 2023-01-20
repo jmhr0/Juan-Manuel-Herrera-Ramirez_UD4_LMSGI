@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Concesionario SYSTEM "Concesionario.dtd">
-<!-- <Concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Concesionario.xsd"> (solo es posible usar una de las dos rutas, así que se prefiere usar el dtd -->
-<Concesionario>
+<!-- <!DOCTYPE Concesionario SYSTEM "Concesionario.dtd"> -->
+<Concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Concesionario.xsd">
+    
     <Coche>
         <Marca>Toyota</Marca>
         <Modelo>Yaris</Modelo>

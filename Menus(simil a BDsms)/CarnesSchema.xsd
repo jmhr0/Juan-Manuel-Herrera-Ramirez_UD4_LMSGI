@@ -7,6 +7,8 @@
                 <xs:element name="Menus" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
+                            <xs:element name="menu" maxOccurs="unbounded"/>
+                                
                             <xs:element name="Componente" type="xs:string"/>
                             <xs:element name="Calorias" type="xs:integer"/>
                             <xs:element name="Peso_neto" type="xs:integer"/>

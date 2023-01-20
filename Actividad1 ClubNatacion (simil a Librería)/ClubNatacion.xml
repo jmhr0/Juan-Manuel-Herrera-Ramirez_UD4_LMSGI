@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding = "UTF-8"?>
-<!DOCTYPE ClubNatacion SYSTEM "Club/ClubNatacion.dtd">
-<!-- <Libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Libreria.xsd"> -->
+<!-- <!DOCTYPE ClubNatacion SYSTEM "ClubNatacion.dtd"> -->
+<ClubNatacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ClubNatacion.xsd"> 
     <Clientes>
         <Cliente>
             <Apellido1>Herrera</Apellido1>
             <Apellido2>Ramirez</Apellido2>
             <Nombre>Juan Manuel</Nombre>
             <Suscripcion>Vip</Suscripcion>
-        <FechainiDeSub>11/01/2023</FechainiDeSub>
-        <FechafinDeSub>13/01/2023</FechafinDeSub>
-        <Sexo>Hombre</Sexo>
+            <FechainiDeSub>2023-01-11</FechainiDeSub>
+            <FechafinDeSub>2023-01-13</FechafinDeSub>
+            <Sexo>Hombre</Sexo>
         </Cliente>
         <Cliente>
             <Apellido1>Rodriguez</Apellido1>
             <Apellido2>Mozo</Apellido2>
             <Nombre>Pepe</Nombre>
             <Suscripcion>Premium</Suscripcion>
-        <FechainiDeSub>13/01/2023</FechainiDeSub>
-        <FechafinDeSub>16/01/2023</FechafinDeSub>
+        <FechainiDeSub>2023-01-13</FechainiDeSub>
+        <FechafinDeSub>2023-01-16</FechafinDeSub>
         <Sexo>Hombre</Sexo>
         </Cliente>
         <Cliente>
@@ -25,8 +25,9 @@
             <Apellido2>Mozo</Apellido2>
             <Nombre>Juan Miguel</Nombre>
             <Suscripcion>Premium</Suscripcion>
-        <FechainiDeSub>13/01/2023</FechainiDeSub>
-        <FechafinDeSub>16/01/2023</FechafinDeSub>
+        <FechainiDeSub>2023-01-13</FechainiDeSub>
+        <FechafinDeSub>2023-01-16</FechafinDeSub>
         <Sexo>Hombre</Sexo>
         </Cliente>
     </Clientes>
+</ClubNatacion>

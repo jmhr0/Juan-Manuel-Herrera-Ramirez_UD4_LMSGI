@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding = "UTF-8"?>
-<!DOCTYPE Libreria SYSTEM "Libreria.dtd">
-<!-- <Libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Libreria.xsd"> -->
-<Libreria>
+<!-- <!DOCTYPE Libreria SYSTEM "Libreria.dtd"> -->
+<Libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Libreria.xsd">
     <Autores>
         <Autor>
             <Apellido1>Sanderson</Apellido1>
             <Apellido2></Apellido2>
             <Nombre>Brandon</Nombre>
             <Titulo>El metal perdido</Titulo>
-        <FechaDePublicacion>17/11/2022</FechaDePublicacion>
-        <Editorial>Nova</Editorial>
-        <ISBN>9788418037733</ISBN>
+            <FechaDePublicacion>17/11/2022</FechaDePublicacion>
+            <Editorial>Nova</Editorial>
+            <ISBN>9788418037733</ISBN>
         </Autor>
         <Autor>
             <Apellido1>Kellen</Apellido1>
