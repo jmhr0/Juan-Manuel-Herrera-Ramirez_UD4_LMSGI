@@ -2,9 +2,36 @@
 <!DOCTYPE Clientes SYSTEM "Clientes.dtd">
 
 <Clientes>
-    <Sede>
-        <Cliente>
-            <CodCliente></CodCliente>
+    <Sede codigo=>
+        <Direccion></Direccion>
+        <Empleado></Empleado>
+        <Fecha_alta></Fecha_alta>
+        <Descripcion></Descripcion>
+        <Cliente codigo=>
+            <NumVivienda></NumVivienda>
+            <CosteVivienda></CosteVivienda>
+            <ResumenVivienda></ResumenVivienda>
+            <PlazoAltaHacienda></PlazoAltaHacienda>
+        </Cliente>
+    </Sede>
+    <Sede codigo=>
+        <Empleado></Empleado>
+        <CodSede></CodSede>
+        <Fecha_alta></Fecha_alta>
+        <Descripcion></Descripcion>
+        <Cliente codigo=>
+            <NumVivienda></NumVivienda>
+            <CosteVivienda></CosteVivienda>
+            <ResumenVivienda></ResumenVivienda>
+            <PlazoAltaHacienda></PlazoAltaHacienda>
+        </Cliente>
+    </Sede>
+    <Sede codigo=>
+        <Empleado></Empleado>
+        <CodSede></CodSede>
+        <Fecha_alta></Fecha_alta>
+        <Descripcion></Descripcion>
+        <Cliente codigo=>
             <NumVivienda></NumVivienda>
             <CosteVivienda></CosteVivienda>
             <ResumenVivienda></ResumenVivienda>

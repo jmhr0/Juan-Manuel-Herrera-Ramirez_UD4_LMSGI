@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Practicas CFGS.dtd" type="application/xml-dtd"?>
-<!-- <DAM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Practicas CFGS.xsd"> -->
-<DAM>
+<!-- <?xml-model href="Practicas CFGS.dtd" type="application/xml-dtd"?> -->
+<DAM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Practicas CFGS.xsd">
     <Alumnos>
         <Alumno>
             <NIF>31293284Y</NIF>
