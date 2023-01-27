@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE BDsms SYSTEM "BDsms.dtd">
-<!-- <BDsms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BDsmsSchema.xsd"> (solo se pueda usar una de las dos rutas, así que se prefiere usar el dtd -->
-<BDsms>
+<!-- <!DOCTYPE BDsms SYSTEM "BDsms.dtd"> -->
+ <BDsms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BDsmsSchema.xsd">
     <sms>
         <telefono>955 55 66 55</telefono>
         <fecha>1/7/2011</fecha>

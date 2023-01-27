@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Clientes SYSTEM "Clientes.dtd">
+<!-- <!DOCTYPE Clientes SYSTEM "Clientes.dtd"> -->
+<?xml-model href="Clientes.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 
 <Clientes>
-    <Sede codigo=>
-        <Direccion></Direccion>
+    <Sede codigo="381828">
         <Empleado></Empleado>
         <Fecha_alta></Fecha_alta>
-        <Descripcion></Descripcion>
-        <Cliente codigo=>
+        <Cliente codigo="392842">
             <NumVivienda></NumVivienda>
+            <Descripcion></Descripcion>
             <CosteVivienda></CosteVivienda>
             <ResumenVivienda></ResumenVivienda>
             <PlazoAltaHacienda></PlazoAltaHacienda>

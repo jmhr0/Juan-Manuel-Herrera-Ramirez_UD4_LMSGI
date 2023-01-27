@@ -1,22 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<xs:element name="Clientes" type="ClienteDatos">
-    <xs:complexType name="ClienteDatos">
-        <xs:sequence>
-            <xs:element name="Sede" type="SedeDatos">
-                <xs:complexType name="SedeDatos">
-                    <xs:sequence>
-                        <xs:element name="Direccion" type="xs:string"></xs:element>
-                        <xs:element name="Empleado" type="xs:string"></xs:element>
-                        <xs:element name="Fecha_alta" type="xs:string"></xs:element>
-                        <xs:element name="Descripcion" type="xs:string"></xs:element>
-                        <xs:element name="Cliente" type="ClienteDatos">
-                            <xs:simpleType ></xs:simpleType>
-                        </xs:element>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-        </xs:sequence>
-    </xs:complexType>
-</xs:element>
 </xs:schema>

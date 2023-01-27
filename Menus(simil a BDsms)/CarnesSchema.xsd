@@ -4,14 +4,18 @@
     <xs:element name="Carnes">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Menus" maxOccurs="unbounded">
+                <xs:element name="Menus">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="menu" maxOccurs="unbounded"/>
-                                
-                            <xs:element name="Componente" type="xs:string"/>
-                            <xs:element name="Calorias" type="xs:integer"/>
-                            <xs:element name="Peso_neto" type="xs:integer"/>
+                            <xs:element name="menu" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="componente" type="xs:string" maxOccurs="unbounded"/>
+                                        <xs:element name="Calorias" type="xs:integer"/>
+                                        <xs:element name="Peso_neto" type="xs:integer"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>

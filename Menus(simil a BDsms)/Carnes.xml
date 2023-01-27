@@ -2,7 +2,7 @@
 <!-- <!DOCTYPE Menus SYSTEM "Carnes.dtd"> -->
 <Carnes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CarnesSchema.xsd">
 <Menus>
-    <menu nombre="Carrillada" precio="13">
+    <menu>
         <componente>Salsa al jugo</componente>
         <componente>patatas</componente>
         <componente>Carne</componente>
@@ -10,7 +10,7 @@
         <Calorias>850</Calorias>
         <Peso_neto>4</Peso_neto>
     </menu>
-    <menu nombre="Solomillo al roquefort" precio="8">
+    <menu>
         <componente>Lechuga</componente>
         <componente>Cebolla</componente>
         <componente>Salsa de roquefort</componente>

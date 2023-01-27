@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Nasa.dtd" type="application/xml-dtd"?>
-<!-- <Nasa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Nasa.xsd"> -->
-<Nasa>
-    <Astronautas>
+<!-- <?xml-model href="Nasa.dtd" type="application/xml-dtd"?> -->
+<Nasa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Nasa.xsd">
         <Astronauta>
             <NIF>31293284Y</NIF>
             <Despegue>Valido</Despegue>
             <Observaciones>Aguanta la gravedad 0</Observaciones>
-            <CodCohete>00000000003</CodCohete>
             <CodEquipo>0052</CodEquipo>
         </Astronauta>
         <Astronauta>
@@ -15,14 +12,11 @@
             <Despegue>No Valido</Despegue>
             <Observaciones>Le dan vertigo las alturas</Observaciones>
             <CodCohete>00000000004</CodCohete>
-            <CodEquipo>0053</CodEquipo>
         </Astronauta>
         <Astronauta>
             <NIF>31293284Y</NIF>
             <Despegue>Valido</Despegue>
             <Observaciones>Tiende a distraerse</Observaciones>
-            <CodCohete>00000000005</CodCohete>
             <CodEquipo>0054</CodEquipo>
         </Astronauta>
-    </Astronautas>
 </Nasa>

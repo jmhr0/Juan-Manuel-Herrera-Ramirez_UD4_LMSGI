@@ -1,30 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- <?xml-model href="Practicas CFGS.dtd" type="application/xml-dtd"?> -->
-<DAM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Practicas CFGS.xsd">
-    <Alumnos>
-        <Alumno>
-            <NIF>31293284Y</NIF>
-            <Resultado>Apto</Resultado>
-            <Observaciones>Buenas notas</Observaciones>
-            <IP>192.165.0.123</IP>
-        </Alumno>
-        <Alumno>
-            <NIF>83182867X</NIF>
-            <Resultado>Apto</Resultado>
-            <Observaciones>Buenas notas</Observaciones>
-            <MAC>193.239.382</MAC>
-        </Alumno>
-        <Alumno>
-            <NIF>581923643L</NIF>
-            <Resultado>No Apto</Resultado>
-            <Observaciones>Buenas notas</Observaciones>
-            <IP>192.165.0.128</IP>
-        </Alumno>
-        <Alumno>
-            <NIF>84172385P</NIF>
-            <Resultado>No Apto</Resultado>
-            <Observaciones>Buenas notas</Observaciones>
-            <MAC>193.239.382</MAC>
-        </Alumno>
-    </Alumnos>
-</DAM>
+<?xml version="1.0" encoding="utf-8"?>
+<DAW xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="practicascfgsbien.xsd">
+	<Alumno>
+		<NIF>32183239I</NIF>
+		<Resultado>Apto</Resultado>
+		<observaciones>Malas notas</observaciones>
+		<ip>195.9.0.1</ip>
+	</Alumno>
+	<Alumno>
+		<NIF>32381828X</NIF>
+		<Resultado>No Apto</Resultado>
+		<observaciones>Falta mucho</observaciones>
+		<ip>195.9.0.2</ip>
+	</Alumno>
+	<Alumno>
+		<NIF>19372838Z</NIF>
+		<Resultado>No Apto</Resultado>
+		<observaciones>Tiene que mejorar en programacion</observaciones>
+		<mac>00:1B:44:11:3A:B7</mac>
+	</Alumno>
+	<Alumno>
+		<NIF>39283748K</NIF>
+		<Resultado>Apto</Resultado>
+		<observaciones>Buen estudiante, debe seguir asi</observaciones>
+		<mac>00:1C:42:11:7A:P3</mac>
+	</Alumno>
+</DAW>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>  <!--Util pero obsoleto (Mirar practicascfgsbien)  -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="DAM">
+    <xs:element name="DAW">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="Alumnos" maxOccurs="unbounded">

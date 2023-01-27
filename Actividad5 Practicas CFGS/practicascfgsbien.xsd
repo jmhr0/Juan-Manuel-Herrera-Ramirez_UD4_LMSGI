@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	
-	<xs:element name="Nasa">
+	<xs:element name="DAW">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="Astronauta" maxOccurs="unbounded">
+				<xs:element name="Alumno" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="NIF" type="tipoNif" />
-							<xs:element name="Despegue" type="tipoDesp"/>
-							<xs:element name="Observaciones" type="tipoObs" minOccurs="0"/>
+							<xs:element name="Resultado" type="tipoRes"/>
+							<xs:element name="observaciones" type="tipoObs" minOccurs="0"/>
 							<xs:choice>
-								<xs:element name="CodEquipo" type="xs:string" />
-								<xs:element name="CodCohete" type="xs:string" />
+								<xs:element name="ip" type="xs:string" />
+								<xs:element name="mac" type="xs:string" />
 							</xs:choice>
 						</xs:sequence>
 					</xs:complexType>
@@ -26,10 +26,10 @@
 		</xs:restriction>
 	</xs:simpleType>
 
-    <xs:simpleType name="tipoDesp">
+    <xs:simpleType name="tipoRes">
 		<xs:restriction base="xs:string">
-			<xs:enumeration value="Valido" />
-			<xs:enumeration value="No Valido" />
+			<xs:enumeration value="Apto" />
+			<xs:enumeration value="No Apto" />
 		</xs:restriction>
     </xs:simpleType>
 
