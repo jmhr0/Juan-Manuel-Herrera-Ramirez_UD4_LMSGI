@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE anuncio SYSTEM "VideoClub.dtd">
+<anuncio>
+  <cabecera>
+    <titulo>VideoClub Zamora</titulo>
+    <dueño>Herrera Ramirez Juan Manuel</dueño>
+    <descripcion>VideoClub Retro para recordar tiempos anteriores, contiene cds de la mayoria de epocas comprendidas entre los 1900 y 2000</descripcion>
+    <lugar>Calle Todos los Santos</lugar>
+  </cabecera>
+  <cuerpo>
+    <genero>
+      <thriller>
+        <nombre>Viernes 13</nombre>
+        <stock>15</stock>
+        <nombre>El gabinete de Dr. Caligari</nombre>
+        <stock>5</stock>
+        <nombre>Nosferatu</nombre>
+        <stock>3</stock>
+        <nombre>El carruaje fantasma</nombre>
+        <stock>7</stock>
+      </thriller>
+    </genero>
+    <genero>
+      <comedia>
+        <nombre>La quimera del oro</nombre>
+        <stock>20</stock>
+        <nombre>Arriba y abajo</nombre>
+        <stock>13</stock>
+        <nombre>El cuarto mandamiento</nombre>
+        <stock>11</stock>
+        <nombre>La ronda</nombre>
+        <stock>7</stock>
+      </comedia>
+    </genero>
+    <genero>
+      <accion>
+        <nombre>Novecento</nombre>
+        <stock>20</stock>
+        <nombre>Fitzcarraldo</nombre>
+        <stock>16</stock>
+        <nombre>El ilusionista</nombre>
+        <stock>13</stock>
+        <nombre>55 días en Pekín</nombre>
+        <stock>6</stock>
+      </accion>
+    </genero>
+  </cuerpo>
+</anuncio>

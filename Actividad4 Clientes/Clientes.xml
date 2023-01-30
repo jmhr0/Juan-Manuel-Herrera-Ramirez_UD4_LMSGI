@@ -1,41 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <!DOCTYPE Clientes SYSTEM "Clientes.dtd"> -->
-<?xml-model href="Clientes.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-
-<Clientes>
-    <Sede codigo="381828">
-        <Empleado></Empleado>
-        <Fecha_alta></Fecha_alta>
-        <Cliente codigo="392842">
-            <NumVivienda></NumVivienda>
-            <Descripcion></Descripcion>
-            <CosteVivienda></CosteVivienda>
-            <ResumenVivienda></ResumenVivienda>
-            <PlazoAltaHacienda></PlazoAltaHacienda>
-        </Cliente>
-    </Sede>
-    <Sede codigo=>
-        <Empleado></Empleado>
-        <CodSede></CodSede>
-        <Fecha_alta></Fecha_alta>
-        <Descripcion></Descripcion>
-        <Cliente codigo=>
-            <NumVivienda></NumVivienda>
-            <CosteVivienda></CosteVivienda>
-            <ResumenVivienda></ResumenVivienda>
-            <PlazoAltaHacienda></PlazoAltaHacienda>
-        </Cliente>
-    </Sede>
-    <Sede codigo=>
-        <Empleado></Empleado>
-        <CodSede></CodSede>
-        <Fecha_alta></Fecha_alta>
-        <Descripcion></Descripcion>
-        <Cliente codigo=>
-            <NumVivienda></NumVivienda>
-            <CosteVivienda></CosteVivienda>
-            <ResumenVivienda></ResumenVivienda>
-            <PlazoAltaHacienda></PlazoAltaHacienda>
-        </Cliente>
-    </Sede>
-</Clientes>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Clientes.xsd">
+   <sede codigo="0001">
+        <direccion></direccion>
+        <direccion>C/nueva nº71</direccion>
+        <empleado>Ramirez Juan Carlos</empleado>
+        <fecha>2022-03-12</fecha>
+        <descripcion></descripcion>
+        <cliente codigo="001">
+            <clienteDescripcion>Solvente</clienteDescripcion>
+            <numero>1</numero>
+            <vivienda ID="01">
+                <coste>25</coste>
+                <resumen></resumen>
+                <plazo>5</plazo>
+            </vivienda>
+             <vivienda ID="02"> 
+                <coste>50</coste>
+                <resumen></resumen>
+                <plazo>10</plazo>
+            </vivienda>
+        </cliente>
+        <cliente codigo="002">
+            <clienteDescripcion>Insolvente</clienteDescripcion>
+            <numero>2</numero>
+            <vivienda ID="01">
+                <coste>75</coste>
+                <resumen></resumen>
+                <plazo>15</plazo>
+            </vivienda>
+             <vivienda ID="02">
+                <coste>100</coste>
+                <resumen></resumen>
+                <plazo>20</plazo>
+            </vivienda>
+        </cliente>
+    </sede>
+    <sede codigo="0002">
+        <direccion>Plaza de Andalucia nº53</direccion>
+        <empleado>Gutierrez Manolo</empleado>
+        <fecha>2023-01-28</fecha>
+        <cliente codigo="001">
+            <clienteDescripcion>Solvente</clienteDescripcion>
+            <numero>3</numero>
+            <vivienda ID="001">
+                <coste>125</coste>
+                <resumen></resumen>
+                <plazo>25</plazo>
+            </vivienda>
+             <vivienda ID="002">
+                <coste>150</coste>
+                <resumen></resumen>
+                <plazo>30</plazo>
+            </vivienda>
+        </cliente>
+        <cliente codigo="002">
+            <clienteDescripcion>Insolvente</clienteDescripcion>
+            <numero>4</numero>
+            <vivienda ID="001">
+                <coste>175</coste>
+                <resumen></resumen>
+                <plazo>35</plazo>
+            </vivienda>
+             <vivienda ID="002">
+                <coste>200</coste>
+                <resumen></resumen>
+                <plazo>40</plazo>
+            </vivienda>
+        </cliente>
+    </sede>
+</clientes>

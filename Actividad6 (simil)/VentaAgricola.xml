@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VentaAgricola xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="VentaAgricola.xsd">
+       <Nombre>ElChaparral</Nombre>
+       <Articulos>
+             <género>
+                   <Tipo>Semillas</Tipo>
+                   <Descripcion>Principios del funcionamiento del lenguaje conocido como java</Descripcion>
+             </género>
+             <género>
+                   <Tipo>Herramientas</Tipo>
+                   <Descripcion>Exploración de los diferentes tipos de datos, principalmente arrays</Descripcion>
+             </género>
+             <género>
+                   <Tipo>Maquinaria</Tipo>
+                   <Descripcion>Diferentes usos de los paquetes y las clases en el ambito de la programacion</Descripcion>
+             </género>
+      </Articulos>
+</VentaAgricola>

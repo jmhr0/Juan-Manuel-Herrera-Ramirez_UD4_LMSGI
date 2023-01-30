@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Modulo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Modulos.xsd">
+       <Nombre>Programacion</Nombre>
+       <Contenidos>
+             <UnidadDidactica>
+                   <Titulo>Java</Titulo>
+                   <Descripcion>Principios del funcionamiento del lenguaje conocido como java</Descripcion>
+             </UnidadDidactica>
+             <UnidadDidactica>
+                   <Titulo>Tipos de datos</Titulo>
+                   <Descripcion>Exploración de los diferentes tipos de datos, principalmente arrays</Descripcion>
+             </UnidadDidactica>
+             <UnidadDidactica>
+                   <Titulo>Paquetes y clases</Titulo>
+                   <Descripcion>Diferentes usos de los paquetes y las clases en el ambito de la programacion</Descripcion>
+             </UnidadDidactica>
+       </Contenidos>
+ </Modulo>

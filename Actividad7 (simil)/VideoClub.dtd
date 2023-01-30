@@ -1,0 +1,13 @@
+<!ELEMENT anuncio (cabecera, cuerpo)>
+<!ELEMENT cabecera (titulo, dueño, descripcion, lugar)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT dueño (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT cuerpo (genero+)>
+<!ELEMENT genero (thriller | comedia | accion)>
+<!ELEMENT thriller (#PCDATA| stock| nombre)*>
+<!ELEMENT comedia (#PCDATA|stock| nombre)*>
+<!ELEMENT accion (#PCDATA|stock| nombre)*>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
