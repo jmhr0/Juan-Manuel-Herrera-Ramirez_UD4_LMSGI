@@ -9,7 +9,7 @@
   </cabecera>
   <tabla>
     <region>
-      <norte>
+      <norte>Norte
         <tri>1</tri>
         <librosv>24000</librosv>
         <tri>2</tri>
@@ -21,7 +21,7 @@
       </norte>
     </region>
     <region>
-      <centro>
+      <centro>Centro
         <tri>1</tri>
         <librosv>NO_INFO</librosv>
         <tri>2</tri>
@@ -33,7 +33,7 @@
       </centro>
     </region>
     <region>
-      <sur>
+      <sur>Sur
         <tri>1</tri>
         <librosv>27000</librosv>
         <tri>2</tri>
